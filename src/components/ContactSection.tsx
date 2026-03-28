@@ -26,7 +26,7 @@ const ContactSection = () => {
       </motion.div>
 
       <div className="mt-24 flex flex-col md:flex-row items-center justify-between gap-6">
-        <span className="label-caps text-muted-foreground">© 2026 Your Name. All rights reserved.</span>
+        <span className="label-caps text-muted-foreground">© 2026 Uddeshya Sharma. All rights reserved.</span>
         <div className="flex gap-8">
           <a href="https://github.com/Uddeshya08" className="nav-link" target="_blank" rel="noreferrer">
             GitHub
