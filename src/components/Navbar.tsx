@@ -14,7 +14,7 @@ const Navbar = () => {
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md">
       <div className="flex items-center justify-between px-6 md:px-12 py-5">
-        <a href="#" className="font-display text-xl font-bold tracking-tight text-foreground">
+        <a href="#" className="font-display text-2xl font-bold tracking-tight text-foreground">
           UDDESHYA
         </a>
 

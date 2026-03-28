@@ -1,6 +1,16 @@
 import { motion } from "framer-motion";
+import { useState } from "react";
+
+const getRandomBrightColor = () => {
+  const hue = Math.floor(Math.random() * 360);
+  const saturation = Math.floor(80 + Math.random() * 20);
+  const lightness = Math.floor(50 + Math.random() * 20);
+  return `hsl(${hue}, ${saturation}%, ${lightness}%)`;
+};
 
 const HeroSection = () => {
+  const [hoverColor, setHoverColor] = useState<string>("");
+
   return (
     <section className="min-h-screen flex flex-col items-center justify-center px-6 md:px-12 pt-24 pb-16">
       <motion.div
@@ -9,13 +19,28 @@ const HeroSection = () => {
         transition={{ duration: 1, ease: [0.22, 1, 0.36, 1] }}
         className="text-center w-full max-w-[1400px]"
       >
-        <h1 className="display-massive text-[clamp(3rem,12vw,12rem)] text-foreground">
+        <h1
+          onMouseEnter={() => setHoverColor(getRandomBrightColor())}
+          onMouseLeave={() => setHoverColor("")}
+          className="display-massive text-[clamp(3rem,12vw,12rem)] cursor-pointer"
+          style={{ color: hoverColor || undefined }}
+        >
           BUILDING
         </h1>
-        <h1 className="display-massive text-[clamp(3rem,12vw,12rem)] text-foreground">
+        <h1
+          onMouseEnter={() => setHoverColor(getRandomBrightColor())}
+          onMouseLeave={() => setHoverColor("")}
+          className="display-massive text-[clamp(3rem,12vw,12rem)] cursor-pointer"
+          style={{ color: hoverColor || undefined }}
+        >
           THE
         </h1>
-        <h1 className="display-massive text-[clamp(3rem,12vw,12rem)] text-foreground">
+        <h1
+          onMouseEnter={() => setHoverColor(getRandomBrightColor())}
+          onMouseLeave={() => setHoverColor("")}
+          className="display-massive text-[clamp(3rem,12vw,12rem)] cursor-pointer"
+          style={{ color: hoverColor || undefined }}
+        >
           FUTURE
         </h1>
       </motion.div>
