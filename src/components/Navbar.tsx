@@ -2,8 +2,8 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
 const navItems = [
-  { label: "Work", href: "#work" },
-  { label: "Services", href: "#services" },
+  { label: "Projects", href: "#work" },
+  { label: "Stack", href: "#services" },
   { label: "About", href: "#about" },
   { label: "Contact", href: "#contact" },
 ];
