@@ -2,6 +2,7 @@ import Navbar from "@/components/Navbar";
 import HeroSection from "@/components/HeroSection";
 import ImageMarquee from "@/components/ImageMarquee";
 import SkillsSection from "@/components/SkillsSection";
+import AILogosMarquee from "@/components/AILogosMarquee";
 import ProjectsSection from "@/components/ProjectsSection";
 import AboutSection from "@/components/AboutSection";
 import ContactSection from "@/components/ContactSection";
@@ -13,6 +14,7 @@ const Index = () => {
       <HeroSection />
       <ImageMarquee />
       <SkillsSection />
+      <AILogosMarquee />
       <ProjectsSection />
       <AboutSection />
       <ContactSection />
