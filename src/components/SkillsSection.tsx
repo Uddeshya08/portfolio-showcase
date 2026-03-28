@@ -2,13 +2,13 @@ import { motion } from "framer-motion";
 
 const skills = [
   { title: "React & Next.js", description: "Dynamic, component-driven user interfaces" },
-  { title: "Node.js & Express", description: "Robust server-side APIs and microservices" },
+  { title: "Java & Angular", description: "Robust frontend and backend enterprise solutions" },
   { title: "TypeScript", description: "Type-safe code for maintainable applications" },
   { title: "PostgreSQL & MongoDB", description: "Relational and document database design" },
   { title: "Cloud & DevOps", description: "AWS, Docker, CI/CD pipelines" },
   { title: "REST & GraphQL", description: "Clean, well-documented API architecture" },
   { title: "UI/UX Design", description: "Pixel-perfect interfaces with Tailwind & Figma" },
-  { title: "Testing & QA", description: "Unit, integration, and end-to-end testing" },
+  { title: "Product Development", description: "End-to-end product delivery and quality-driven launches" },
 ];
 
 const SkillsSection = () => {

@@ -18,21 +18,25 @@ const ContactSection = () => {
           CONNECT
         </h2>
         <a
-          href="mailto:dev@yourname.com"
+          href="mailto:dmuddeshya@gmail.com"
           className="inline-block mt-10 font-body text-lg text-foreground border-b border-foreground pb-1 hover:opacity-50 transition-opacity"
         >
-          dev@yourname.com
+          dmuddeshya@gmail.com
         </a>
       </motion.div>
 
       <div className="mt-24 flex flex-col md:flex-row items-center justify-between gap-6">
         <span className="label-caps text-muted-foreground">© 2026 Your Name. All rights reserved.</span>
         <div className="flex gap-8">
-          {["GitHub", "LinkedIn", "Twitter", "Dev.to"].map((social) => (
-            <a key={social} href="#" className="nav-link">
-              {social}
-            </a>
-          ))}
+          <a href="https://github.com/Uddeshya08" className="nav-link" target="_blank" rel="noreferrer">
+            GitHub
+          </a>
+          <a href="https://www.linkedin.com/in/uddeshyasharma/" className="nav-link" target="_blank" rel="noreferrer">
+            LinkedIn
+          </a>
+          <a href="https://dev.to/uddeshya_sharma" className="nav-link" target="_blank" rel="noreferrer">
+            Dev.to
+          </a>
         </div>
       </div>
     </section>
