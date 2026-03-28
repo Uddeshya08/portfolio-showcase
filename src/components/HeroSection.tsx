@@ -17,12 +17,12 @@ const HeroSection = () => {
         initial={{ opacity: 0, y: 40 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1, ease: [0.22, 1, 0.36, 1] }}
-        className="text-center w-full max-w-[1400px]"
+        className="text-center w-full max-w-[90vw] md:max-w-[1400px]"
       >
         <h1
           onMouseEnter={() => setHoverColor(getRandomBrightColor())}
           onMouseLeave={() => setHoverColor("")}
-          className="display-massive text-[clamp(3rem,12vw,12rem)] cursor-pointer"
+          className="display-massive text-[clamp(3rem,20vw,10rem)] leading-relaxed md:leading-[1.00] cursor-pointer"
           style={{ color: hoverColor || undefined }}
         >
           BUILDING
@@ -30,7 +30,7 @@ const HeroSection = () => {
         <h1
           onMouseEnter={() => setHoverColor(getRandomBrightColor())}
           onMouseLeave={() => setHoverColor("")}
-          className="display-massive text-[clamp(3rem,12vw,12rem)] cursor-pointer"
+          className="display-massive text-[clamp(3rem,20vw,10rem)] leading-relaxed md:leading-[1.00] cursor-pointer"
           style={{ color: hoverColor || undefined }}
         >
           THE
@@ -38,7 +38,7 @@ const HeroSection = () => {
         <h1
           onMouseEnter={() => setHoverColor(getRandomBrightColor())}
           onMouseLeave={() => setHoverColor("")}
-          className="display-massive text-[clamp(3rem,12vw,12rem)] cursor-pointer"
+          className="display-massive text-[clamp(3rem,20vw,10rem)] leading-relaxed md:leading-[1.00] cursor-pointer"
           style={{ color: hoverColor || undefined }}
         >
           FUTURE
@@ -59,7 +59,7 @@ const HeroSection = () => {
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.8, duration: 0.8 }}
-        className="mt-16 max-w-2xl text-center display-section text-[clamp(1.2rem,3vw,2.2rem)] text-foreground"
+        className="mt-16 max-w-2xl text-center display-section text-[clamp(1.2rem,3vw,2.2rem)] leading-tight md:leading-relaxed text-foreground"
       >
         Clean code.{" "}
         <span className="text-muted-foreground">Scalable systems.</span>

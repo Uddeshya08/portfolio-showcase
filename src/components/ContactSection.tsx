@@ -2,8 +2,8 @@ import { motion } from "framer-motion";
 
 const ContactSection = () => {
   return (
-    <section id="contact" className="px-6 md:px-12 py-24">
-      <div className="section-divider mb-16" />
+    <section id="contact" className="px-6 md:px-12 pt-10 pb-16">
+      <div className="section-divider mb-8" />
       
       <motion.div
         initial={{ opacity: 0, y: 30 }}
@@ -12,7 +12,7 @@ const ContactSection = () => {
         className="text-center"
       >
         <span className="label-caps text-muted-foreground">● Let's Build Something</span>
-        <h2 className="display-massive text-[clamp(2.5rem,8vw,8rem)] text-foreground mt-6">
+        <h2 className="display-massive text-[clamp(2.5rem,10vw,8rem)] leading-tight md:leading-relaxed text-foreground mt-6">
           LET'S
           <br />
           CONNECT

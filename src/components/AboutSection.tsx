@@ -3,16 +3,17 @@ import aboutImg from "@/assets/about.png";
 
 const AboutSection = () => {
   return (
-    <section id="about" className="px-6 md:px-12 py-24">
+    <section id="about" className="px-6 md:px-12 py-16 md:py-24">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-20 items-center">
         <motion.div
           initial={{ opacity: 0, x: -30 }}
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
+          className="order-last md:order-first"
         >
           <span className="label-caps text-muted-foreground">● About Me</span>
-          <h2 className="display-section text-[clamp(2rem,5vw,4rem)] text-foreground mt-4 mb-8">
+          <h2 className="display-section text-[clamp(2rem,5vw,4rem)] leading-normal md:leading-relaxed text-foreground mt-4 mb-6">
             Engineer By Trade, Creator By Instinct
           </h2>
           <p className="body-refined text-muted-foreground text-lg max-w-lg">
@@ -31,7 +32,7 @@ const AboutSection = () => {
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
-          className="image-reveal h-[60vh] md:h-[75vh]"
+          className="image-reveal h-[60vh] md:h-[75vh] order-first md:order-last"
         >
           <img src={aboutImg} alt="About the studio" className="w-full h-full object-cover" loading="lazy" width={800} height={1000} />
         </motion.div>
