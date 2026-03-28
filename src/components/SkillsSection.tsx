@@ -1,14 +1,14 @@
 import { motion } from "framer-motion";
 
 const skills = [
-  { title: "UI/UX Design", description: "Interfaces that balance beauty with usability" },
-  { title: "Brand Identity", description: "Visual systems that define and distinguish" },
-  { title: "Web Development", description: "Performant, responsive digital products" },
-  { title: "Motion Design", description: "Animation that brings stories to life" },
-  { title: "Art Direction", description: "Creative vision across every touchpoint" },
-  { title: "3D & CGI", description: "Dimensional worlds, rendered with precision" },
-  { title: "Photography", description: "Editorial imagery with emotional depth" },
-  { title: "Strategy", description: "Insights that shape impactful creative work" },
+  { title: "React & Next.js", description: "Dynamic, component-driven user interfaces" },
+  { title: "Node.js & Express", description: "Robust server-side APIs and microservices" },
+  { title: "TypeScript", description: "Type-safe code for maintainable applications" },
+  { title: "PostgreSQL & MongoDB", description: "Relational and document database design" },
+  { title: "Cloud & DevOps", description: "AWS, Docker, CI/CD pipelines" },
+  { title: "REST & GraphQL", description: "Clean, well-documented API architecture" },
+  { title: "UI/UX Design", description: "Pixel-perfect interfaces with Tailwind & Figma" },
+  { title: "Testing & QA", description: "Unit, integration, and end-to-end testing" },
 ];
 
 const SkillsSection = () => {
