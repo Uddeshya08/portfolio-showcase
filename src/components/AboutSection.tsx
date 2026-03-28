@@ -11,18 +11,18 @@ const AboutSection = () => {
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
         >
-          <span className="label-caps text-muted-foreground">● About</span>
+          <span className="label-caps text-muted-foreground">● About Me</span>
           <h2 className="display-section text-[clamp(2rem,5vw,4rem)] text-foreground mt-4 mb-8">
-            Our Edge: An Alliance Between Tech & Sensitivity
+            Engineer By Trade, Creator By Instinct
           </h2>
           <p className="body-refined text-muted-foreground text-lg max-w-lg">
-            We combine cutting-edge technologies with human intuition to create visual content
-            that is both precise and emotional. Our work sits at the intersection of
-            design, development, and creative direction.
+            I'm a full stack developer with 5+ years of experience building web applications
+            from the ground up. I specialize in React, Node.js, and cloud infrastructure — 
+            turning complex problems into elegant, performant solutions.
           </p>
           <p className="body-refined text-muted-foreground text-lg max-w-lg mt-6">
-            Each project follows a structured production framework while remaining guided
-            by artistic intent. This balance allows us to deliver scalable, premium-quality work.
+            Whether it's architecting a database schema, designing a responsive UI, or deploying
+            to production — I own the entire stack. Clean code, tested thoroughly, shipped fast.
           </p>
         </motion.div>
 

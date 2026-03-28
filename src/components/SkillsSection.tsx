@@ -20,11 +20,11 @@ const SkillsSection = () => {
         viewport={{ once: true }}
         className="mb-16"
       >
-        <span className="label-caps text-muted-foreground">● Services</span>
+        <span className="label-caps text-muted-foreground">● Tech Stack</span>
         <h2 className="display-section text-[clamp(2rem,6vw,5rem)] text-foreground mt-4">
-          A Dedicated Team,
+          Full Stack,
           <br />
-          A United Vision
+          Full Control
         </h2>
       </motion.div>
 

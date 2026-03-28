@@ -10,13 +10,13 @@ const HeroSection = () => {
         className="text-center w-full max-w-[1400px]"
       >
         <h1 className="display-massive text-[clamp(3rem,12vw,12rem)] text-foreground">
-          CRAFTING
+          BUILDING
         </h1>
         <h1 className="display-massive text-[clamp(3rem,12vw,12rem)] text-foreground">
-          DIGITAL
+          THE
         </h1>
         <h1 className="display-massive text-[clamp(3rem,12vw,12rem)] text-foreground">
-          EXPERIENCES
+          FUTURE
         </h1>
       </motion.div>
 
@@ -27,7 +27,7 @@ const HeroSection = () => {
         className="mt-12 flex items-center gap-2"
       >
         <span className="w-2 h-2 rounded-full bg-foreground" />
-        <span className="label-caps text-muted-foreground">Portfolio & Services</span>
+        <span className="label-caps text-muted-foreground">Full Stack Developer</span>
       </motion.div>
 
       <motion.p
@@ -36,11 +36,11 @@ const HeroSection = () => {
         transition={{ delay: 0.8, duration: 0.8 }}
         className="mt-16 max-w-2xl text-center display-section text-[clamp(1.2rem,3vw,2.2rem)] text-foreground"
       >
-        Precision design.{" "}
-        <span className="text-muted-foreground">Bold vision.</span>
+        Clean code.{" "}
+        <span className="text-muted-foreground">Scalable systems.</span>
         <br />
-        Powered by creativity,{" "}
-        <span className="text-muted-foreground">technology & craft.</span>
+        From frontend pixels{" "}
+        <span className="text-muted-foreground">to backend logic.</span>
       </motion.p>
     </section>
   );

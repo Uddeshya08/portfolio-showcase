@@ -6,11 +6,11 @@ import project4 from "@/assets/project-4.jpg";
 import project5 from "@/assets/project-5.jpg";
 
 const projects = [
-  { title: "Maison Noir", category: "Brand Identity", image: project1 },
-  { title: "Lumière", category: "Product Photography", image: project2 },
-  { title: "Atelier Mode", category: "Art Direction", image: project3 },
-  { title: "Métropole", category: "Web Design", image: project4 },
-  { title: "Espace Blanc", category: "Interior Design", image: project5 },
+  { title: "TaskFlow", category: "SaaS Platform · React + Node.js", image: project1 },
+  { title: "ShopVault", category: "E-Commerce · Next.js + Stripe", image: project2 },
+  { title: "DataPulse", category: "Analytics Dashboard · D3 + PostgreSQL", image: project3 },
+  { title: "ConnectHub", category: "Real-Time Chat · Socket.io + Redis", image: project4 },
+  { title: "HealthSync", category: "Healthcare App · React Native + AWS", image: project5 },
 ];
 
 const ProjectsSection = () => {

@@ -26,9 +26,9 @@ const ContactSection = () => {
       </motion.div>
 
       <div className="mt-24 flex flex-col md:flex-row items-center justify-between gap-6">
-        <span className="label-caps text-muted-foreground">© 2026 Studio. All rights reserved.</span>
+        <span className="label-caps text-muted-foreground">© 2026 Your Name. All rights reserved.</span>
         <div className="flex gap-8">
-          {["Instagram", "Dribbble", "LinkedIn", "Twitter"].map((social) => (
+          {["GitHub", "LinkedIn", "Twitter", "Dev.to"].map((social) => (
             <a key={social} href="#" className="nav-link">
               {social}
             </a>
