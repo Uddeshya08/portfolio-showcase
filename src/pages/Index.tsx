@@ -4,6 +4,7 @@ import ImageMarquee from "@/components/ImageMarquee";
 import SkillsSection from "@/components/SkillsSection";
 import AILogosMarquee from "@/components/AILogosMarquee";
 import ProjectsSection from "@/components/ProjectsSection";
+import ReviewsSection from "@/components/ReviewsSection";
 import AboutSection from "@/components/AboutSection";
 import ContactSection from "@/components/ContactSection";
 
@@ -16,6 +17,7 @@ const Index = () => {
       <SkillsSection />
       <AILogosMarquee />
       <ProjectsSection />
+      <ReviewsSection />
       <AboutSection />
       <ContactSection />
     </div>
